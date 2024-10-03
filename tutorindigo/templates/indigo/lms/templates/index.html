@@ -14,10 +14,11 @@ from openedx.core.djangolib.markup import HTML, Text
       <!--<img src="${static.url('images/background.jpg')}" alt="Header background">-->
       <header>
         <div class="outer-wrapper">
-          <img src="${static.url('images/background.jpg')}" alt="Header background">
+          
           <!-- Title and search bar content -->
           <div class="title">
             <div class="heading-group">
+            <img src="${static.url('images/background.jpg')}" alt="Header background">
               % if homepage_overlay_html:
                 ${homepage_overlay_html | n, decode.utf8}
               % else:
