@@ -31,16 +31,16 @@ section.home {
 }
 #main .home.style-logout  {
     header {
-        /*.header-background img {
+        .header-background img {
             width: 100%;
             height: auto;
-            position: center;
+            position: relative;
             top: 0;
             left: 0;
             z-index: -1;
             object-fit: cover;
           }          
-        background: none !important;*/
+        /*background: none !important;*/
         .outer-wrapper {
             .title {
                 width: 100%;
@@ -48,6 +48,8 @@ section.home {
                 margin: 0;
                 padding: 30px 0 0;
                 min-height: 20px;
+                position: relative;
+                z-index: 1;
                 @include media-breakpoint-up(sm) {
                     padding: 50px 0 0;
                 }
