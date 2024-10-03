@@ -9,7 +9,8 @@ section.home {
 }
 .home>header .outer-wrapper {
     max-width: 100%;
-    .header-background img {
+}
+.home>header .outer-wrapper-background img {
         width: 100%;
         height: auto;
         position: relative;
@@ -18,7 +19,7 @@ section.home {
         z-index: -1;
         object-fit: cover;
         }  
-}
+
 .global-header .nav-links .secondary {
     .btn-holder {
         letter-spacing: -.32em;
