@@ -40,15 +40,6 @@ section.home {
     }
 }
 #main .home.style-logout  {  
-        background: img {
-            width: 100%;
-            height: auto;
-            position: relative;
-            top: 0;
-            left: 0;
-            z-index: -1;
-            object-fit: cover;
-            }   
         /*background: none !important;*/
             .outer-wrapper {   
             .title {
@@ -63,6 +54,15 @@ section.home {
                     padding: 50px 0 0;
                 }
                 .heading-group {
+                    background: img {
+                        width: 100%;
+                        height: auto;
+                        position: relative;
+                        top: 0;
+                        left: 0;
+                        z-index: -1;
+                        object-fit: cover;
+                        }
                     margin: 0 0 25px;
                     text-align: left;
                     padding: 0;
@@ -90,6 +90,7 @@ section.home {
                         margin: 0;
                     }
                 }
+
                 .course-search {
                     padding: 0;
                     .search-field-wrapper {
