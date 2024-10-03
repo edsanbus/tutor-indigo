@@ -31,7 +31,16 @@ section.home {
 }
 #main .home.style-logout  {
     header {
-        background: none !important;
+        .header-background img {
+            width: 100%;
+            height: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            object-fit: cover;
+          }          
+       /*background: none !important;*/
         .outer-wrapper {
             .title {
                 width: 100%;
